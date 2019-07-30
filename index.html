@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -93,9 +93,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -300,51 +300,16 @@
       
         
           
-            <p>欢迎来到<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>！这是你第一次发帖。查看<a href="https://hexo.io/docs/" target="_blank" rel="noopener">文档</a>了解更多信息。如果您在使用HEXO时遇到任何问题，可以在<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">故障排除</a>中找到答案，也可以在<a href="https://github.com/hexoks/hexo/issues" target="_blank" rel="noopener">Github</a>上询问我。</p>
-<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<p>$$<br>P = \frac<br>{\sum_{i=1}^n (x_i- x)(y_i- y)}<br>{\displaystyle \left[<br>\sum_{i=1}^n (x_i-x)^2<br>\sum_{i=1}^n (y_i-y)^2<br>\right]^{1/2} }<br>$$</p>
-<pre class="mermaid">sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br>long time, so long<br>that the text does<br>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?</pre>
-<pre class="mermaid">graph TD
-A((开始)) --> I[盘点页面]
-I --> B(录入资产标签)
-B --> C[显示设备信息]
-C --> D[人工核对]
-D --> E{核对无误?}
-E -->|Y| F(确认)
-F --> H[在资产列表中标记对应设备]
-H --> I
-E -->|N| G(取消)
-G --> I
-I --> J(进入盘点列表页)
-J --> K[查看盘点进度]
-K --> L{是否结束盘点?}
-L -->|N| P(继续)
-P --> I
-L -->|Y| M(盘点结束)
-M --> N[生成盘点结果列表]
-N --> O((结束))</pre>
-<h2 id="快速启动-Quick-Start"><a href="#快速启动-Quick-Start" class="headerlink" title="快速启动 Quick Start"></a>快速启动 Quick Start</h2><h3 id="新建日志-Create-a-new-post"><a href="#新建日志-Create-a-new-post" class="headerlink" title="新建日志 Create a new post"></a>新建日志 Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>更多信息 More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">写作 Writing</a></p>
-<h3 id="运行服务器-Run-server"><a href="#运行服务器-Run-server" class="headerlink" title="运行服务器 Run server"></a>运行服务器 Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">服务器 Server</a></p>
-<h3 id="生成静态文件-Generate-static-files"><a href="#生成静态文件-Generate-static-files" class="headerlink" title="生成静态文件 Generate static files"></a>生成静态文件 Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">生成 Generating</a></p>
-<h3 id="部署到远程站点-Deploy-to-remote-sites"><a href="#部署到远程站点-Deploy-to-remote-sites" class="headerlink" title="部署到远程站点 Deploy to remote sites"></a>部署到远程站点 Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">部署 Deployment</a></p>
-
-          
+          欢迎来到Hexo！这是你第一次发帖。查看文档了解更多信息。如果您在使用HEXO时遇到任何问题，可以在故障排除中找到答案，也可以在Github上询问我。
+Welcome to Hexo! This is your very first post. Check documentation for mor
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/06/18/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -483,7 +448,7 @@ N --> O((结束))</pre>
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -597,6 +562,13 @@ N --> O((结束))</pre>
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
